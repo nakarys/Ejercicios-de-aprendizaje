@@ -28,10 +28,10 @@ por pantalla que diga “CORRECTO”, en caso contrario, se deberá imprimir
             
         palabra = leer.nextLine();
         if (palabra.length() == 8){
-            System.out.println("Intenta nuevamente");
+            System.out.println("Correcto");
         }
         else{
-            System.out.println("Correcto");
+            System.out.println("Incorrecto");
         }
                       
         } while (palabra.length()==8);
